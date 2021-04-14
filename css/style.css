@@ -150,3 +150,33 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+/* LOGOS */
+
+.logos__inner {
+    padding: 55px 0 70px;
+}
+
+.logos__title {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(69, 88, 128, 0.5);
+    margin-bottom: 50px;
+}
+
+.logos__items {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos__item {
+    opacity: .7;
+    transition: all .3s;
+}
+
+.logos__item:hover {
+    cursor: pointer;
+    opacity: 1;
+}
